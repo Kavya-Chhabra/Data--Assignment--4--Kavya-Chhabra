@@ -54,7 +54,7 @@ print("Number of benign samples (class 1):", class_counts[1])
 #=========================================================
 
 #the dataset contains 569 total samples and 30 features.
-#Each# Each sample represents measurements of a tumor taken from
+# Each sample represents measurements of a tumor taken from
 # digitized images of a breast mass.
 
 # Class distribution:

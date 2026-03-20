@@ -14,8 +14,6 @@ from sklearn.datasets import load_breast_cancer
 # Load the dataset into a variable called "data"
 data = load_breast_cancer()
 
-#Load the dataset into a variable called "Data"
-data = load_breast_cancer()
 
 #Construct feature matrix X and target vector y
 

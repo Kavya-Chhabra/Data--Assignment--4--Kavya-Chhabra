@@ -31,8 +31,8 @@ y = data.target
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,y,
-    test_size=0.2,  #20% of data used for testing
-    stratify=y,     #keeps the class distribution consistent
+    test_size=0.2,   #20% of data used for testing
+    stratify=y,      #keeps the class distribution consistent
     random_state=42  #ensures reproducibility
 )
 

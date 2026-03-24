@@ -1,15 +1,5 @@
 # Data Assignment- By: Kavya Chhabra
 
-This assignment explores two different supervised learning approaches:
-
-1. **Decision Trees**
-2. **Neural Networks / Convolutional Neural Networks**
-
-The work is divided into two datasets:
-
-- **Dataset A:** Breast Cancer Wisconsin (Diagnostic) dataset
-- **Dataset B:** Fashion MNIST dataset
-
 ## Questions Completed
 
 ### Q1 – Dataset Exploration and Understanding

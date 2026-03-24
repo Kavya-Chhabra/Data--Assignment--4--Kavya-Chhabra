@@ -69,17 +69,18 @@ constrained_tree_model = DecisionTreeClassifier(
 # the model learns patterns that connect the feature values to the class labels
 constrained_tree_model.fit(X_train, y_train)
 
-#make predictions on the training data
+# make predictions on the training data
 
-# predict the class labels for the test set
-# this helps me evaluate how well the model generalizes to unseen data
+# predict the class labels for the training set
+# this helps me see how well the model fits the training data
 train_predictions = constrained_tree_model.predict(X_train)
 
 # predict the class labels for the test set
 # this helps me evaluate how well the model generalizes to unseen data
 test_predictions = constrained_tree_model.predict(X_test)
 
-#Calaculate the training and testing accuracy
+
+#Calculate the training and testing accuracy
 
 # training accuracy tells me the proportion of training examples
 # the model classified correctly
@@ -119,9 +120,10 @@ print(feature_importance_df.head(5))
 # Interpretation
 
 # Controlling model complexity helps reduce overfitting.
-# If a decision tree is allowed to grow without limits, it can memorize
-# the training data too closely, which usually leads to very high training
-# accuracy but worse performance on unseen test data.
+# In Q2, the unconstrained tree had a training accuracy of 1.0,
+# which suggested that it may have memorized the training data.
+# In this constrained model, the training accuracy and test accuracy
+# are closer together, which suggests better generalization and less overfitting.
 
 # By adding a constraint such as max_depth, the tree is forced to stay simpler.
 # A simpler tree usually generalizes better because it focuses on the most

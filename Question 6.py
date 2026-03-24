@@ -36,7 +36,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 
-
 # Load the Fashion MNIST dataset
 
 
@@ -82,23 +81,11 @@ print("Reshaped X_test shape:", X_test.shape)
 
 # Build the CNN model
 
-
-# I am creating a simple CNN with:
-# • one convolutional layer
-# • one max pooling layer
-# • one flatten layer
-# • one hidden dense layer
-# • one output dense layer
-
-cnn_model = Sequential()
-
 # Conv2D applies filters to the image to detect useful patterns
 # such as edges, curves, and textures
 # 32 means there are 32 different filters
 # kernel_size=(3,3) means each filter is 3x3
 # relu is used as the activation function
-
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Input
 
 cnn_model = Sequential()
 

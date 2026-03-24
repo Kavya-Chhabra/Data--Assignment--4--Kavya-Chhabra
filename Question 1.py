@@ -26,9 +26,8 @@ X = data.data
 # 1 = benign (non-cancerous)
 y = data.target
 
-#==========================================================
+
 # report the shapes of X and y
-#==========================================================
 
 #Shape tells us the dimensions of the dataset
 # For X: (number_of_samples, number_of_features)
@@ -47,9 +46,8 @@ print("Number of malignant samples (class 0):", class_counts[0])
 print("Number of benign samples (class 1):", class_counts[1])
 
 
-#========================================================
 #interpretation
-#=========================================================
+
 
 #the dataset contains 569 total samples and 30 features.
 # Each sample represents measurements of a tumor taken from

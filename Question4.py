@@ -167,6 +167,11 @@ print("Neural Network Test Accuracy:", test_accuracy)
 # the whole training set 50 times and updates its weights repeatedly
 # in order to improve its predictions.
 
+# The neural network performed well on this dataset.
+# The training accuracy is about 0.9890 and the test accuracy is about 0.9561.
+# Since these two values are fairly close, the model appears to generalize
+# well to unseen data, although there may be a small amount of overfitting.
+
 
 
 

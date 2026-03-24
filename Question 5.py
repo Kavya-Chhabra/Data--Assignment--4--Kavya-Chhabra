@@ -111,7 +111,7 @@ neural_network_model.fit(
 nn_probabilities = neural_network_model.predict(X_test_scaled, verbose=0)
 
 # convert probabilities into class labels
-nn_predictions = (nn_probabilities >= 0.5).astype(int)
+nn_predictions = (nn_probabilities >= 0.5).astype(int).flatten()
 
 # compute confusion matrix for the neural network
 nn_cm = confusion_matrix(y_test, nn_predictions)

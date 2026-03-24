@@ -1,4 +1,4 @@
-# Data Assignment
+# Data Assignment- By: Kavya Chhabra
 
 This assignment explores two different supervised learning approaches:
 
@@ -78,6 +78,3 @@ The work is divided into two datasets:
 - Some TensorFlow warnings may appear during execution, but the code still runs correctly.
 - Fashion MNIST images are low-resolution grayscale images, so misclassified examples may appear blurry or pixelated.
 
-## Author
-
-Kavya Chhabra
